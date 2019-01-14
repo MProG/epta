@@ -5,8 +5,7 @@ require 'uri'
 
 class GetProductListService
   def scratch(url = "http://konfiskat.by/konfiskat/13520/?limit=48&PAGEN_1=")
-
-    i = 26
+    i = 1
 
     first_code = nil
 
