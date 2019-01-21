@@ -20,6 +20,6 @@
 # Learn more: http://github.com/javan/whenever
 
 
-every 1.day do
-  runner "GrabProductsWorker.perform_in(5.minutes)"
+every 5.minutes do
+  runner "GrabProductsWorker.perform_now"
 end
