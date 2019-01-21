@@ -19,7 +19,8 @@ test:
   <<: *server
   database: epta_test
 
-production:
+production:  
   <<: *default
-  <<: *server
-  url: epta_production
+  username: root
+  password: 
+  url: <%= ENV['DATABASE_URL'] %>
