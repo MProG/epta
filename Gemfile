@@ -25,7 +25,7 @@ gem 'cancan' # or cancancan
 gem 'draper'
 gem 'pundit'
 gem 'dotenv-rails'
-gem 'redis'
+gem 'redis-rails'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
